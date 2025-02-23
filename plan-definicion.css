@@ -1,0 +1,60 @@
+/* Estilos específicos para Plan Definición */
+.plan-definicion {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Encabezado */
+.plan-definicion .header {
+    margin-bottom: 30px;
+}
+
+.plan-definicion .titulo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+
+.plan-definicion .descripcion {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Sección principal */
+.plan-definicion .contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan-definicion .bloque {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+.plan-definicion .bloque img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.plan-definicion .subtitulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Listas */
+.plan-definicion .bloque ul {
+    list-style-type: none;
+    pad
